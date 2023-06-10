@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ccc;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.key.playing {
+  transform: scale(1.1);
+  background-color: #ff0000;
+  color: #fff;
+}
